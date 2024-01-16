@@ -73,22 +73,22 @@ button {
   list-style-type: none;
 }
 
-.nav-item li {
-  margin-left: 40px;
-}
-
-.nav-item li a {
-  text-decoration: none;
-  color: black;
-  font-size: 18px;
-  font-family: 400;
-}
 
 .nav-item li:first-child a {
   color: var(--global-color);
 }
 
-
+.nav-item li {
+    margin-left: 40px;
+  }
+  
+  .nav-item li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: 400;
+  }
+  
 
 .explore-travel-container {
   text-align: center;
