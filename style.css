@@ -310,9 +310,7 @@ button {
   box-shadow: 1px 10px 20px 1px black;
   transition-duration: 0.5s;
 }
-/* End destination container */
 
-/* start why choose us container */
 .why-choose-container {
   display: flex;
   flex-direction: column;
