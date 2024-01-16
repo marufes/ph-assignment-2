@@ -1,0 +1,716 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Mulish";
+}
+
+:root {
+  --global-color: #ff5400;
+}
+
+.body {
+  margin: 60px 135px;
+}
+
+.body section {
+  margin-bottom: 100px;
+}
+
+button {
+  background-color: var(--global-color);
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+}
+
+.global-button {
+  height: 52px;
+  width: 174px;
+  color: #fff;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.header img {
+  height: 55px;
+  margin-right: 15px;
+}
+
+.header span {
+  color: var(--global-color);
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-img {
+  height: 24px;
+  cursor: pointer;
+  display: none;
+}
+
+.nav-bar {
+  display: flex;
+}
+
+.nav-item {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-item li {
+  margin-left: 40px;
+}
+
+.nav-item li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-family: 400;
+}
+
+.nav-item li:first-child a {
+  color: var(--global-color);
+}
+
+/* End nav bar */
+
+/* start explore your travel */
+
+.explore-travel-container {
+  text-align: center;
+  margin: 50px 0;
+  background: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("./Images/Group 13 (1) (1).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.explore-travel {
+  margin: 15%;
+}
+
+.explore-travel-desc h1 {
+  font-size: 64px;
+  font-weight: 800;
+}
+
+.explore-travel-desc p {
+  margin: 25px 30px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.explore-travel-container-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.3);
+  width: max-content;
+  margin: 0 auto;
+  gap: 25px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.explore-input,
+.findNowImg {
+  height: 52px;
+  width: 174px;
+  padding: 0 15px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  outline: none;
+  border: none;
+}
+
+.findNowImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.findNowImg > img {
+  background-color: var(--global-color);
+  margin-right: 10px;
+}
+/* End explore your travel */
+
+/* main start */
+
+/*start our popular tour */
+
+.popular-tour-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popular-tour-container > div {
+  width: 50%;
+}
+
+.popular-tour-heading {
+  font-size: 40px;
+  font-weight: 800;
+  margin: 0 0 20px 0;
+}
+
+.popular-tour-pera,
+.popular-tour-list {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(19, 19, 24, 0.7);
+}
+
+.popular-tour-list li {
+  margin: 20px;
+}
+
+.popular-tour-button {
+  margin-top: 20px;
+}
+
+.popular-tour-container > img {
+  height: 550px;
+}
+/* end our popular tour */
+
+/* start destination container */
+
+.destination-desc {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.destination-desc h1 {
+  font-size: 40px;
+  font-weight: 800px;
+}
+
+.destination-desc p {
+  width: 75%;
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.maldives {
+  background: url("./Images/Rectangle\ 5.png");
+  grid-area: maldives;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.indonesia {
+  background: url("./Images/Rectangle 8.png");
+  grid-area: indonesia;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.srilanka {
+  background: url("./Images/Rectangle 6.png");
+  grid-area: srilanka;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.north-america {
+  background: url("./Images/Rectangle 7.png");
+  grid-area: nort-america;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.kahsmir {
+  background: url("./Images/Rectangle 9.png");
+  grid-area: kahsmir;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bangladesh {
+  background: url("./Images/Rectangle 11.png");
+  grid-area: bangladesh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bandarban {
+  background: url("./Images/Rectangle 10.png");
+  grid-area: bandarban;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.destination-country {
+  margin: 50px 0;
+  display: grid;
+  gap: 24px;
+  grid-template-areas:
+    "maldives maldives maldives maldives maldives indonesia indonesia indonesia indonesia indonesia"
+    "srilanka srilanka srilanka nort-america nort-america nort-america nort-america nort-america kahsmir kahsmir"
+    "bangladesh bangladesh bangladesh bangladesh bandarban bandarban bandarban bandarban bandarban bandarban";
+}
+
+.destination-country div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 300px;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+
+.destination-country div:hover {
+  cursor: pointer;
+  box-shadow: 1px 10px 20px 1px black;
+  transition-duration: 0.5s;
+}
+/* End destination container */
+
+/* start why choose us container */
+.why-choose-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.why-choose-container-desc {
+  text-align: center;
+}
+
+.why-choose-container-desc h1 {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.why-choose-container-desc p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(19, 19, 24, 0.7);
+  margin: 25px;
+}
+
+.why-choose-container-service {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.why-choose-container-service div {
+  width: 42%;
+  height: 284px;
+  padding: 32px;
+  margin-bottom: 32px;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+
+.why-choose-container-service div:hover {
+  box-shadow: 1px 0 10px 0;
+  transition-duration: 0.5s;
+}
+.why-choose-container-service div:first-child {
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+}
+
+.why-choose-container-service div:nth-child(2) {
+  border: 1px solid rgba(41, 206, 246, 0.2);
+
+  background: rgba(41, 206, 246, 0.05);
+}
+
+.why-choose-container-service div:last-child {
+  border: 1px solid rgba(233, 68, 68, 0.2);
+
+  background: rgba(233, 68, 68, 0.05);
+}
+
+.why-choose-container-service img {
+  height: 64px;
+}
+
+.why-choose-container-service h1 {
+  font-size: 24px;
+  font-weight: 800px;
+  margin: 32px 0;
+}
+
+.why-choose-container-service p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #5a5a5d;
+}
+/* end why choose us container */
+
+/* start deals and discount container */
+
+.deals-container {
+  text-align: center;
+}
+
+.deals-container>button{
+    margin-top: 24px;
+}
+
+.deals-container section {
+  margin-bottom: 24px;
+}
+
+.deals-desc {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.deals-desc > p {
+  width: 60%;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.deals-card {
+  height: 500px;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+}
+
+.pricing {
+  height: 389px;
+  width: 579px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+  display: flex;
+  flex-direction: column;
+  margin: 56px;
+  padding: 50px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+
+.deals-card-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 26px;
+}
+
+.deals-card-list li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 24px;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.deals-card-pricing {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 26px;
+  text-align: left;
+}
+
+.pricing button {
+  width: 150px;
+  height: 52px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+
+  font-size: 20px;
+  font-weight: 800;
+  color: #fff;
+}
+
+.deals-card1 {
+  background: url("./Images/Group 39.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  align-items: end;
+}
+
+.deals-card2 {
+  background: url("./Images/Group 40.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.deals-card3 {
+    background: url("./Images/third\ image.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: end;
+  }
+/* end deals and discount container */
+
+/* start perfect place */
+
+.popular-tour-container video{
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+
+.perfect-place-list li{
+    font-weight: 700;
+    color: #131318;
+}
+
+/* end perfect place */
+
+/* start news letter container */
+.news-letter-container{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    
+}
+
+.news-letter-card{
+    width: 40%;
+    height: 422px;
+    border: 1px solid var(--global-color);
+    border-radius: 16px;
+    padding: 40px;
+    box-sizing: border-box;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+
+.news-letter-card hr{
+    margin: 24px 0;
+    border: 1px solid rgba(19, 19, 24, 0.10);
+}
+
+.news-letter-heading h1{
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.news-letter-heading p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.news-letter-form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.news-letter-form input, .news-letter-submit{
+    height: 52px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    outline: none;
+    
+}
+
+.news-letter-form input{
+    padding-left: 20px;
+}
+
+.news-letter-submit{
+    color: #fff;
+}
+
+.offer-container{
+    height: 422px;
+    width: 60%;
+    background: url('./Images/Rectangle 8 (1).png');
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    position: relative;
+}
+
+.offer{
+    position: absolute;
+    color: #fff;
+    bottom: 40px;
+    right: 5px;
+    padding: 15px 25px;
+    border-radius: 16px;
+    text-align: center;
+    background-color: var(--global-color);
+    transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+
+.offer h2{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.offer h1{
+    font-size: 32px;
+    font-weight: 800;
+}
+/* end news letter container */
+
+/* start footer */
+footer{
+    background: rgba(19, 19, 24, 0.05);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.footer-container{
+    width: 60%;
+}
+
+.footer-header{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.footer-header img{
+    height: 46px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.footer-header h1{
+    font-size: 32px;
+    text-align: center;
+}
+
+.footer-header span{
+    color: var(--global-color);
+}
+
+.footer p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 15px 0 33px 0;
+}
+
+.social-icon ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.social-icon img{
+    height: 24px;
+}
+
+.footer-container hr{
+    margin: 50px 0;
+    border: 1px solid rgba(19, 19, 24, 0.10);
+}
+
+.copyright{
+    font-size: 16px;
+    font-weight: 300;
+}
+/* end footer */
+
+/* main end */
