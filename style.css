@@ -88,9 +88,7 @@ button {
   color: var(--global-color);
 }
 
-/* End nav bar */
 
-/* start explore your travel */
 
 .explore-travel-container {
   text-align: center;
@@ -171,11 +169,7 @@ button {
   background-color: var(--global-color);
   margin-right: 10px;
 }
-/* End explore your travel */
 
-/* main start */
-
-/*start our popular tour */
 
 .popular-tour-container {
   display: flex;
@@ -398,9 +392,7 @@ button {
   font-weight: 400;
   color: #5a5a5d;
 }
-/* end why choose us container */
 
-/* start deals and discount container */
 
 .deals-container {
   text-align: center;
@@ -519,9 +511,6 @@ button {
     background-position: center;
     align-items: end;
   }
-/* end deals and discount container */
-
-/* start perfect place */
 
 .popular-tour-container video{
     border-radius: 16px;
@@ -536,9 +525,7 @@ button {
     color: #131318;
 }
 
-/* end perfect place */
 
-/* start news letter container */
 .news-letter-container{
     display: flex;
     align-items: center;
@@ -644,9 +631,7 @@ button {
     font-size: 32px;
     font-weight: 800;
 }
-/* end news letter container */
 
-/* start footer */
 footer{
     background: rgba(19, 19, 24, 0.05);
     height: 500px;
@@ -711,6 +696,3 @@ footer{
     font-size: 16px;
     font-weight: 300;
 }
-/* end footer */
-
-/* main end */
